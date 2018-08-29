@@ -1,0 +1,95 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+ 
+.wp-block-cgb-block-algori-social-share-buttons  {
+  width: 100%;
+}
+
+.algori-social-share-buttons-settings {
+	
+	margin: 0 5px 5px 0;
+	
+	&.bttn-lg {
+		font-size: inherit;
+	}
+
+	&.bttn-md {
+		font-size: inherit;
+	}
+
+	&.bttn-sm {
+		font-size: inherit;
+	}
+
+	&.bttn-xs {
+		font-size: inherit;
+	}
+	
+}
+
+
+$colors: (
+	facebook: #3B5998,
+	twitter: #55acee,
+	googleplus: #dc4e41,
+	linkedin: #0077b5,
+	pinterest: #cb2027,
+	reddit: #ff4500,
+	email: #7d7d7d,
+	gmail: #dc4e41,
+	yahoo: #7934f7,
+	print: #222222,
+	blogger: #ff8000,
+	flipboard: #e12828,
+	whatsapp: #25d366,
+	telegram: #179cde,
+	wechat: #4ec034,
+);
+
+
+@each $name, $color in $colors {
+  
+  .algori-social-share-buttons-#{$name} {
+    	
+    	/*simple*/
+    	&.bttn-simple.bttn-primary, 
+    	.bttn-gradient.bttn-primary {
+    		background: $color;
+    	}
+    	
+		
+    	/*stretch*/
+    	&.bttn-stretch.bttn-primary {
+    		color: $color;
+    	}
+    	
+    	
+    	/*minimal*/
+    	&.bttn-minimal.bttn-primary {
+    		color: $color;
+    	}
+    	
+    	
+    	/*material*/
+    	&.bttn-material-flat.bttn-primary {
+    		background: $color;
+    		color: #fff;
+    	}
+    	
+		
+    	/*pill*/
+    	&.bttn-pill.bttn-primary {
+    		background: $color;
+    		color: #fff;
+    	}
+		
+  }
+  
+}
+
+
+
+
