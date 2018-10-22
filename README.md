@@ -12,6 +12,10 @@ Requires at least: WP 4.9.6
 
 Algori Social Share Buttons is a Gutenberg Block Plugin that enables you add Social Media Share Buttons to your website.
 
+<p align="center">
+  <img src="https://ps.w.org/social-share-buttons-lite/assets/screenshot-1.gif" alt="Algori Social Share Buttons WordPress Gutenberg Plugin">
+</p>
+
 # Description 
 
 Algori Social Share Buttons is a Gutenberg Block Plugin that enables you add Social Media Share Buttons to your website. Adding popular social share buttons enables your site visitors to easily send and share your site content with their friends. **This will boost user engagement and grow your site audience**.
