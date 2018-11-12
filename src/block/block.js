@@ -198,7 +198,7 @@ const blockAttributes = {
 			},
 			{
 				name: 'Email',
-				link: 'mailto:body=urlToShare',
+				link: 'mailto:?body=urlToShare',
 				icon: 'fas fa-envelope'
 			},
 			{
