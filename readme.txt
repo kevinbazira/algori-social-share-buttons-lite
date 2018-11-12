@@ -3,9 +3,9 @@ Contributors: kevinbazira
 Donate link: http://kevinbazira.com
 Tags: gutenberg, block, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
 Requires at least: 4.9.6
-Tested up to: 4.9.8
+Tested up to: 5.0
 Requires PHP: 5.6.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -19,22 +19,22 @@ This free plugin has a lot to offer. Even more can be found in the Premium versi
 
 The free Algori Social Share Buttons plugin includes the following features: 
 
-1. Select from 15 Popular Social Media Channels ( websites and mobile messenger apps ) that your content can be shared to.
-2. Select from 5 Beautiful Share Button Design Types that will entice your website visitors to click and share your content.
+1. Select from **15** Popular Social Media Channels ( websites and mobile messenger apps ) that your content can be shared to.
+2. Select from **5** Beautiful Share Button Design Types that will entice your website visitors to click and share your content.
 3. GDPR Compliant. This plugin does not collect any user data when your visitors click on the Social Share Buttons.
 
 == New Premium Plugin ===
 
 We released a Premium Plugin with many more exciting features:
 
-1. **Many more popular Social Media Channels** supported. Select from over 35 New Social Media Channels including Messenger share buttons, Whatsapp share buttons, Telegram share buttons, Print button, Line share buttons, Skype share buttons, Flickr share buttons, Blogger share buttons, Reddit share buttons, Weibo share buttons, Tumblr share buttons, Xing share buttons, Vkontakte share buttons (VK), RenRen share buttons, Douban share buttons, QZone share buttons, HackerNews share buttons, Pocket share buttons, Threema share buttons, Odnoklassniki share buttons (OK), Buffer share buttons, Meneame share buttons, Mailru share buttons, LiveJournal share buttons, SurfingBird share buttons, StumbleUpon share buttons, Digg share buttons, Delicious share buttons, Skype share buttons, SMS share buttons, and many other share buttons!
-2. **More beautiful Button Design Types** added. Select from over 12 New Share Button Design Types which have eye catching button and icon animations that will entice your website visitors to click and share your content.
+1. **Many more popular Social Media Channels** supported. Select from over **35** New Social Media Channels including Messenger share buttons, Whatsapp share buttons, Telegram share buttons, Print button, Line share buttons, Skype share buttons, Flickr share buttons, Blogger share buttons, Reddit share buttons, Weibo share buttons, Tumblr share buttons, Xing share buttons, Vkontakte share buttons (VK), RenRen share buttons, Douban share buttons, QZone share buttons, HackerNews share buttons, Pocket share buttons, Threema share buttons, Odnoklassniki share buttons (OK), Buffer share buttons, Meneame share buttons, Mailru share buttons, LiveJournal share buttons, SurfingBird share buttons, StumbleUpon share buttons, Digg share buttons, Delicious share buttons, Skype share buttons, SMS share buttons, and many other share buttons!
+2. **More beautiful Button Design Types** added. Select from over **12** New Share Button Design Types which have eye catching button and icon animations that will entice your website visitors to click and share your content.
 3. **Share Button Sizes** supported. Adjust your share buttons to small, medium or large sizes that will look good on your website straight out of the box. 
 4. **Share Button Icon or Text** customization options. Choose to show Icons only, Text only or both Text and Icons on your Social Share Buttons.
 5. **Friendly support** in case you're stuck. :)
 6. **Many more settings and options** for your Social Share Buttons.
 
-Have a look at the [Premium Plugin](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg) 
+Have a look at the [Premium Plugin](https://codecanyon.net/item/algori-social-share-buttons-pro-for-wordpress-gutenberg/22539845) 
 
 == Installation ==
 
@@ -87,6 +87,9 @@ Nope. Algori Social Share Buttons only works with Gutenberg.
 See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
 
 == Changelog ==
+
+= 1.0.1 - Nov 12 2018 =
+* Fixed: Email sharing link
 
 = 1.0.0 - Aug 28 2018 =
 * Initial Release
