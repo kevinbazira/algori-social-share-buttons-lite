@@ -22,18 +22,18 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function algori_social_share_buttons_cgb_block_assets() {
 	// Styles.
-	
 	wp_enqueue_style( 'algori_social_share_buttons-bttn-css', plugins_url( '/dist/bttn-css/bttn.min.css', dirname( __FILE__ ) ) );
 	wp_enqueue_style( 'algori_social_share_buttons-fontawesome-css', plugins_url( '/dist/fonts/css/fontawesome.min.css', dirname( __FILE__ ) ) );
 	wp_enqueue_style( 'algori_social_share_buttons-fontawesome-brands-css', plugins_url( '/dist/fonts/css/brands.min.css', dirname( __FILE__ ) ) );
 	wp_enqueue_style( 'algori_social_share_buttons-fontawesome-solid-css', plugins_url( '/dist/fonts/css/solid.min.css', dirname( __FILE__ ) ) );
 	
-	wp_enqueue_style(
+	wp_enqueue_style( 
 		'algori_social_share_buttons-cgb-style-css', // Handle.
-		plugins_url( 'dist/blocks.style.build.css', dirname( __FILE__ ) ), // Block style CSS.
-		array( 'wp-blocks' ) // Dependency to include the CSS after it.
+		plugins_url( 'dist/blocks.style.build.css', dirname( __FILE__ ) ) // Block style CSS.
+		// array( 'wp-blocks' ) // Dependency to include the CSS after it.
 		// filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.style.build.css' ) // Version: filemtime — Gets file modification time.
 	);
+	
 } // End function algori_social_share_buttons_cgb_block_assets().
 
 // Hook: Frontend assets.
@@ -53,13 +53,12 @@ function algori_social_share_buttons_cgb_editor_assets() {
 	wp_enqueue_script(
 		'algori_social_share_buttons-cgb-block-js', // Handle.
 		plugins_url( '/dist/blocks.build.js', dirname( __FILE__ ) ), // Block.build.js: We register the block here. Built with Webpack.
-		array( 'wp-blocks', 'wp-i18n', 'wp-element' ), // Dependencies, defined above.
+		array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor' ), // Dependencies, defined above.
 		// filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.build.js' ), // Version: filemtime — Gets file modification time.
 		true // Enqueue the script in the footer.
 	);
 
 	// Styles.
-	
 	wp_enqueue_style(
 		'algori_social_share_buttons-cgb-block-editor-css', // Handle.
 		plugins_url( 'dist/blocks.editor.build.css', dirname( __FILE__ ) ), // Block editor CSS.
