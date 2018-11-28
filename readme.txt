@@ -2,10 +2,10 @@
 Contributors: kevinbazira
 Donate link: http://kevinbazira.com
 Tags: gutenberg, block, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
-Requires at least: 4.9.6
+Requires at least: 4.9.8
 Tested up to: 5.0
 Requires PHP: 5.6.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -87,6 +87,11 @@ Nope. Algori Social Share Buttons only works with Gutenberg.
 See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
 
 == Changelog ==
+
+= 1.0.2 - Nov 27 2018 =
+* Removed: wp-blocks dependency from algori_social_share_buttons-cgb-style-css
+* Added: wp-editor dependency to editor_assets
+* Added: Social call to action into README.md
 
 = 1.0.1 - Nov 12 2018 =
 * Fixed: Email sharing link
