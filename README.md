@@ -1,110 +1,135 @@
-# Algori Social Share Buttons
+# Algori Video and Image Slider
 
-Contributors: Kevin Bazira(http://kevinbazira.com)
+Contributors: [Kevin Bazira](http://kevinbazira.com)
 
-Tags: gutenberg, block, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
+Tags: gutenberg, block, slider, image slider, image gallery, image carousel, slideshow, video slider, photo slider, hero image, header slider, responsive slider
 
-Requires at least: WP 4.9.8
-* Tested up to: WP 5.0
-* Stable tag: 1.0.2
+Requires at least: WP 5.0.0
+* Tested up to: WP 5.1.1
+* Stable tag: 1.0.3
 * License: GNU General Public License v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
-Algori Social Share Buttons is a Gutenberg Block Plugin that enables you add Social Media Share Buttons to your website.
+Algori Video and Image Slider is a Gutenberg Block Plugin that enables you easily add video and image sliders to your website.
 
 <p align="center">
-  <img src="https://ps.w.org/social-share-buttons-lite/assets/screenshot-1.gif" alt="Algori Social Share Buttons WordPress Gutenberg Plugin">
+  <img src="http://kevinbazira.com/images/articles/algori-image-and-video-slider-pro-for-wordpress-gutenberg.jpg" alt="Algori Image Slider">
 </p>
 
 # Description 
 
-Algori Social Share Buttons is a Gutenberg Block Plugin that enables you add Social Media Share Buttons to your website. Adding popular social share buttons enables your site visitors to easily send and share your site content with their friends. **This will boost user engagement and grow your site audience**.
+Algori Video and Image Slider is a Gutenberg Block Plugin that enables you easily add video and image sliders to your website. 
 
-This free plugin has a lot to offer. Even more can be found in the Premium version of this Plugin, please see [all features of the Premium plugin here](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg#features)
+Capture your site visitors' attention with compelling image slideshows, hero images/videos, header sliders and image carousels. **This will boost user engagement and increase revenue for your site**.
 
-The free Algori Social Share Buttons plugin includes the following features: 
+This free plugin has a lot to offer. Even more can be found in the Premium version of this Plugin, please see [all features of the Premium plugin here](http://www.kevinbazira.com/blog/article/algori-image-and-video-slider-pro-for-wordpress-gutenberg#features).
 
-1. Select from **15** Popular Social Media Channels ( websites and mobile messenger apps ) that your content can be shared to.
-2. Select from **5** Beautiful Share Button Design Types that will entice your website visitors to click and share your content.
-3. GDPR Compliant. This plugin does not collect any user data when your visitors click on the Social Share Buttons.
+# Features of the free image slider
 
-# New Premium Plugin
+* Hide/Show Navigation Dots
+* Hide/Show Navigation Arrows
+* Enable/Disable Slideshow Autoplay
+* 1 slider dot style
+* 1 slider arrow style
 
-We released a Premium Plugin with many more exciting features:
+# Features of the premium version
 
-* **Many more popular Social Media Channels** supported. Select from over **35** New Social Media Channels including Messenger share buttons, Whatsapp share buttons, Telegram share buttons, Print button, Line share buttons, Skype share buttons, Flickr share buttons, Blogger share buttons, Reddit share buttons, Weibo share buttons, Tumblr share buttons, Xing share buttons, Vkontakte share buttons (VK), RenRen share buttons, Douban share buttons, QZone share buttons, HackerNews share buttons, Pocket share buttons, Threema share buttons, Odnoklassniki share buttons (OK), Buffer share buttons, Meneame share buttons, Mailru share buttons, LiveJournal share buttons, SurfingBird share buttons, StumbleUpon share buttons, Digg share buttons, Delicious share buttons, Skype share buttons, SMS share buttons, and many other share buttons!
-* **More beautiful Button Design Types** added. Select from over **12** New Share Button Design Types which have eye catching button and icon animations that will entice your website visitors to click and share your content.
-* **Share Button Sizes** supported. Adjust your share buttons to small, medium or large sizes that will look good on your website straight out of the box. 
-* **Share Button Icon or Text** customization options. Choose to show Icons only, Text only or both Text and Icons on your Social Share Buttons.
-* **Friendly support** in case you're stuck. :)
-* **Many more settings and options** for your Social Share Buttons.
+* 14 different slider dot styles
+* 14 different slider arrow styles
+* Add text with call to action button ontop of slider
+* Hide/Show Navigation Dots
+* Hide/Show Navigation Arrows
+* Enable/Disable Slideshow Autoplay
+* Hide/Show Pause Autoplay on Click
+* Disable/Enable Right to Left Direction
+* Enable/Disable Vertical Direction
+* Enable/Disable Slide Fade
+* Enable/Disable Lazy Load
+* Enable/Disable Center Mode
+* Disable/Enable Infinite Slider Loop
+* Adjust Slider Animation Speed
+* Adjust Slider Autoplay Speed
+* Show multiple slides
+* Scroll multiple slides
+* Show slides in rows
+* Adjust slider video settings ( autoplay, muted, controls, loop, and much more ... )
+* Set left, right, center, wide and full width alignments for image slider.
 
-Have a look at the [Premium Plugin](https://codecanyon.net/item/algori-social-share-buttons-pro-for-wordpress-gutenberg/22539845) 
+Most of these features are enabled by default and can't be disabled or adjusted in the free version. We released a Premium Plugin with many more exciting features that will enable you to adjust all the slider settings as you wish.
+
+Have a look at the [Premium Plugin here](https://codecanyon.net/item/algori-image-and-video-slider-pro-for-wordpress-gutenberg/22818690).
 
 # Installation
 
 * Download the plugin, unzip it and move the unzipped folder to the "wp-content/plugins" directory in your WordPress installation.
-* In your admin panel, go to Plugins and you'll find Social Share Buttons in the plugins section.
-* Click on the 'Activate' button to use your new plugin right away.
-* Go [here for a guide on how to add and customize Social Share Buttons to your WordPress site](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg#documentation).
+* In your admin panel, go to Plugins and you'll find "Algori Image & Video Slider" in the plugins section.
+* Click on the "Activate" button to use your new plugin right away.
+* Go [here for a guide on how to add video and image sliders to your WordPress site](http://www.kevinbazira.com/blog/article/algori-image-and-video-slider-pro-for-wordpress-gutenberg#documentation).
 * Done :)
-
 
 # How to use 
 
-* After installing and activating the Social Share Buttons plugin in your WordPress website.
-* Navigate to your blog post or page and use the Gutenberg editor to add a Social Share Buttons block.
-* Select Social Media Channels using the Gutenberg block inspector section.
-* Choose Share Button Design Type using the Gutenberg block inspector section.
-* Click "Publish" to view your new web page with Social Share Buttons.
+* After installing and activating the "Algori Image and Video Slider" plugin in your WordPress website.
+* Navigate to your blog post or page and use the Gutenberg editor to add an "Image & Video Slider" block.
+* Use the "Image & Video Slider" block to upload images/videos or choose images/videos from the media library to create your image slider or image carousel.
+  PS: In order to choose multiple images in the media library press keyboard button “Ctrl” on Windows or “Command” on Mac, then click on your images to select them.
+* At this point, you can adjust your slider settings using the Gutenberg block inspector section.
+	- Hide/Show Navigation Dots
+	- Hide/Show Navigation Arrows
+	- Enable/Disable Slideshow Autoplay
+* Click "Publish" to view your new web page with an image slider.
 * Congratulations :D
 
-# Frequently Asked Questions 
-
-= What is Social Sharing and why would I need it? =
-
-Social Sharing enables your website users to share your website content over their social network.
-
-**Benefits**
-* **Increased User Traffic:** When users share content over their Social network, it shows up in front of more people which results in increased user traffic to your website.
-* **SEO Optimization:** Social sharing helps your website content get indexed faster and improves other factors that help in search engine optimization of your blog.
+# Frequently Asked Questions
 
 = Can I use this plugin with other page builders am using? =
 
-Nope. Algori Social Share Buttons only works with Gutenberg.
+Nope. Algori Video and Image Slider only works with Gutenberg.
 
 = Why upgrade to Pro? =
 
-* **More customization features:** The Premium version includes new features like more popular Social Media Channels, beautiful Button Design Types, Share Button Sizes, Options to use Icons or Text and much more.
+* **More customization features:** The Premium version includes new features that will enable you to adjust the slider settings that are enabled by default and can't be disabled in the free version. It also has other cool features like adding text to your slider, changing slider dot and arrow styles to beautifully match your website and much more.
 * **No Need to Register Anywhere:** You do not need to create an account at our website to use this plugin.
 * **No Middle Layer:** Plugin runs totally on your website server without any communication to our servers.
 * **Absolutely Simple:** Plugin configuration is kept dead simple. Customization options designed to be intuitive to setup without being a rocket scientist.
-* **Optimized Loading time:** Loading time of Social Sharing Buttons is optimized and if you compare with other plugins, you will find it less than that of all those plugins.
+* **Optimized Loading time:** Loading time of image slider is optimized and if you compare with other plugins, you will find it less than that of all those plugins.
 * **Lightweight Code:** Our developers follow best coding practices to ensure efficient loading and performance.
-* **No Coding Skills Required:** Social Share Buttons Plugin is easy to use and does almost everything for you without touching the code.
+* **No Coding Skills Required:** Algori Video and Image Slider Plugin is easy to use and does almost everything for you without touching the code.
 * We promise to provide **best quality** among other similar plugins. If you find our plugin lacking certain feature that you need, please feel free to email us and we will do our best to include that feature in our plugin as soon as possible.
 * **Priority support:** Our support team is working 24/7 to answer your inquiries as fast as possible.
 
-See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
+See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-image-and-video-slider-pro-for-wordpress-gutenberg)
 
-# Changelog 
+# Changelog
 
-= 1.0.2 - Nov 27 2018 =
-* Removed: wp-blocks dependency from algori_social_share_buttons-cgb-style-css
-* Added: wp-editor dependency to editor_assets
-* Added: Social call to action into README.md
+= 1.0.3 - May 09 2019 =
+* Added dynamic video mime type detection for video slides
+* Added message with video download link in case browser doesn't support the HTML5 video tag
+* Added Spinner to show loading is in progress instead of blank slider
 
-= 1.0.1 - Nov 12 2018 =
-* Fixed: Email sharing link
+= 1.0.2 - May 04 2019 =
+* Fixed media type verification bug on upload
+* Upgraded cgb-scripts from 1.11.1 to 1.13.0
+* Improved documentation to match WP standards
+* Added MediaUploadCheck wrapper onto MediaUpload to make sure the current user has Upload permissions
+* Added algori in the block keywords
 
-= 1.0.0 - Aug 28 2018 =
+= 1.0.1 - Nov 29 2018 =
+* Removed 'wp-blocks' dependency from both external algori_image_video_slider-*-css
+* Removed MediaPlaceholder labels name
+* Added MediaPlaceholder labels instructions
+* Changed all documentation from "Algori Image and Video Slider" to "Algori Video and Image Slider" for SEO purposes
+* Added Social call to action into README.md
+
+= 1.0.0 - Oct 30 2018 =
 * Initial Release
 
+Algori Video and Image Slider WordPress Plugin, Copyright 2019 Kevin Bazira<br/>
+Algori Video and Image Slider is distributed under the terms of the GNU GPL<br/><br/>
 
-Algori Social Share Buttons WordPress Plugin, Copyright 2018 Kevin Bazira.
-Algori Social Share Buttons is distributed under the terms of the GNU GPL.
 
-
-_If you like this project, please 🌟 star it here_ [![GitHub stars](https://img.shields.io/github/stars/kevinbazira/algori-social-share-buttons-lite.svg?label=Stars&style=social)](https://github.com/kevinbazira/algori-social-share-buttons-lite)
+_If you like this project, please 🌟 star it here_ [![GitHub stars](https://img.shields.io/github/stars/kevinbazira/algori-image-and-video-slider-lite.svg?label=Stars&style=social)](https://github.com/kevinbazira/algori-image-and-video-slider-lite)
 <br/>
 _Follow me 👋 on Twitter for more projects like this_ [![Tweet to say Hi](https://img.shields.io/twitter/follow/kevinbazira.svg?style=social&label=Tweet%20@kevinbazira)](https://twitter.com/kevinbazira/)
+
+
