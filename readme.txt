@@ -2,10 +2,10 @@
 Contributors: kevinbazira
 Donate link: http://kevinbazira.com
 Tags: gutenberg, block, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
-Requires at least: 4.9.8
-Tested up to: 5.0
+Requires at least: 5.0.0
+Tested up to: 5.2
 Requires PHP: 5.6.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -88,17 +88,18 @@ See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/
 
 == Changelog ==
 
+= 1.0.3 - May 17 2019 =
+* Tested up to WP 5.2
+* Upgraded cgb-scripts from 1.11.1 to 1.13.0
+* Improved documentation to match WP standards
+
 = 1.0.2 - Nov 27 2018 =
-* Removed: wp-blocks dependency from algori_social_share_buttons-cgb-style-css
-* Added: wp-editor dependency to editor_assets
-* Added: Social call to action into README.md
+* Removed wp-blocks dependency from algori_social_share_buttons-cgb-style-css
+* Added wp-editor dependency to editor_assets
+* Added Social call to action into README.md
 
 = 1.0.1 - Nov 12 2018 =
-* Fixed: Email sharing link
+* Fixed Email sharing link
 
 = 1.0.0 - Aug 28 2018 =
 * Initial Release
-
-
-Algori Social Share Buttons WordPress Plugin, Copyright 2018 Kevin Bazira.
-Algori Social Share Buttons is distributed under the terms of the GNU GPL.
