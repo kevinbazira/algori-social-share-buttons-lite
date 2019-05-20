@@ -73,6 +73,10 @@ Social Sharing enables your website users to share your website content over the
 
 Nope. Algori Social Share Buttons only works with Gutenberg.
 
+= What theme works with Algori Social Share Buttons? =
+
+Most WordPress themes that are optimized for Gutenberg will work well with Algori Social Share Buttons. To get a full experience of the next-generation WordPress block editor, you’ll need a Gutenberg-ready WordPress theme, like [Algori Blogger](https://wordpress.org/themes/algori-blogger/).
+
 = Why upgrade to Pro? =
 
 * **More customization features:** The Premium version includes new features like more popular Social Media Channels, beautiful Button Design Types, Share Button Sizes, Options to use Icons or Text and much more.
