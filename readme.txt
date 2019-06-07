@@ -68,13 +68,13 @@ Social Sharing enables your website users to share your website content over the
 1. **Increased User Traffic:** When users share content over their Social network, it shows up in front of more people which results in increased user traffic to your website.
 2. **SEO Optimization:** Social sharing helps your website content get indexed faster and improves other factors that help in search engine optimization of your blog.
 
-= Can I use this plugin with other page builders am using? =
+= Can I use this plugin with other page builders I am using? =
 
 Nope. Algori Social Share Buttons only works with Gutenberg.
 
 = What theme works with Algori Social Share Buttons? =
 
-Most WordPress themes that are optimized for Gutenberg will work well with Algori Social Share Buttons. To get a full experience of the next-generation WordPress block editor, you’ll need a Gutenberg-ready WordPress theme, like [Algori Blogger](https://wordpress.org/themes/algori-blogger/).
+Most WordPress themes that are optimized for Gutenberg will work well with Algori Social Share Buttons. To get a full experience of the next-generation WordPress block editor, you’ll need a Gutenberg-ready WordPress theme, like [Algori Blogger](https://wordpress.org/themes/algori-blogger/) or [Algori Shop](https://wordpress.org/themes/algori-shop/).
 
 = Why upgrade to Pro? =
 
