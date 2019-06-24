@@ -6,7 +6,7 @@ Tags: gutenberg, block, social media, share, buttons, share icons, share buttons
 
 Requires at least: WP 5.0.0
 * Tested up to: WP 5.2
-* Stable tag: 1.0.3
+* Stable tag: 1.0.4
 * License: GNU General Public License v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -75,7 +75,7 @@ Nope. Algori Social Share Buttons only works with Gutenberg.
 
 = What theme works with Algori Social Share Buttons? =
 
-Most WordPress themes that are optimized for Gutenberg will work well with Algori Social Share Buttons. To get a full experience of the next-generation WordPress block editor, you'll need a Gutenberg-ready WordPress theme, like [Algori Blogger](https://wordpress.org/themes/algori-blogger/) or [Algori Shop](https://wordpress.org/themes/algori-shop/).(https://wordpress.org/themes/algori-blogger/).
+Most WordPress themes that are optimized for Gutenberg will work well with Algori Social Share Buttons. To get a full experience of the next-generation WordPress block editor, you'll need a Gutenberg-ready WordPress theme, like [Algori Blogger](https://wordpress.org/themes/algori-blogger/) or [Algori Shop](https://wordpress.org/themes/algori-shop/).
 
 = Why upgrade to Pro? =
 
@@ -92,6 +92,10 @@ Most WordPress themes that are optimized for Gutenberg will work well with Algor
 See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
 
 # Changelog 
+
+= 1.0.3 - May 17 2019 =
+* Removed Google+ Share button since [Google closed consumer g+ in April 2019](https://blog.google/technology/safety-security/expediting-changes-google-plus/)
+* Added Messenger Share button to replace g+
 
 = 1.0.3 - May 17 2019 =
 * Tested up to WP 5.2
