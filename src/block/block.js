@@ -96,71 +96,71 @@ const blockAttributes = {
 		default: 'icon-and-text',
 	},
 	showButtonIcon: { 
-		type: 'bolean',
+		type: 'boolean',
 		default: true,
 	},
 	showButtonText: {
-		type: 'bolean',
+		type: 'boolean',
 		default: true,
 	},
 	facebook: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	twitter: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
-	googleplus: {
-		type: 'bolean',
+	messenger: {
+		type: 'boolean',
 		default: false,
 	},
 	linkedin: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	pinterest: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	reddit: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	email: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	gmail: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	yahoo: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	print: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	blogger: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	flipboard: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	whatsapp: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	telegram: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	wechat: {
-		type: 'bolean',
+		type: 'boolean',
 		default: false,
 	},
 	socialMediaChannels: {
@@ -177,9 +177,9 @@ const blockAttributes = {
 				icon: 'fab fa-twitter'
 			},
 			{
-				name: 'GooglePlus', 
-				link: 'https://plus.google.com/share?url=urlToShare',
-				icon: 'fab fa-google-plus-g'
+				name: 'Messenger', 
+				link: 'https://www.facebook.com/dialog/send?link=urlToShare&app_id=408838532975140&redirect_uri=urlToShare',
+				icon: 'fab fa-facebook-messenger'
 			},
 			{
 				name: 'Linkedin', 
@@ -273,7 +273,7 @@ registerBlockType( 'cgb/block-algori-social-share-buttons', {
 	
 	keywords: [ // Block search keywords
 		__( 'Algori Social Media Share Buttons' ), 
-		__( 'facebook twitter googleplus linkedin pinterest reddit email gmail yahoo print blogger flipboard whatsapp telegram wechatr threema line sms skype messenger' ), 
+		__( 'facebook twitter messenger linkedin pinterest reddit email gmail yahoo print blogger flipboard whatsapp telegram wechatr threema line sms skype' ), 
 		__( 'pocket tumblr digg buffer hackernews qzone vk weibo odnoklassniki douban xing renren meneame mailru delicious tumbleupon urfingbird livejournal' ), 
 	],
 	
@@ -486,5 +486,68 @@ registerBlockType( 'cgb/block-algori-social-share-buttons', {
 		);
 		
 	},
+	
+	/**
+	 * Array of deprecated forms of this block.
+	 *
+	 * @link https://wordpress.org/gutenberg/handbook/block-api/deprecated-blocks/
+	 */
+	deprecated: [ 
+		{
+			
+			attributes: {
+				...blockAttributes,
+			},
+			
+			migrate( { googleplus } ) {
+                return {
+                    messenger: googleplus
+                };
+            },
+			
+			save: ( { attributes, className } ) => {
+		
+				const { url, title, align, width, height, contentAlign, id, currentPagePermalink, selectedSocialMediaChannels, selectedButtonType, selectedButtonSize, selectedButtonTextOrIcon, showButtonIcon, showButtonText, socialMediaChannels } = attributes;
+				
+				const classes = classnames(
+					selectedButtonType, 
+					selectedButtonSize, 
+					'bttn-primary', 
+					'algori-social-share-buttons-settings'
+				);
+				
+				const SocialShareButtons = ({socialMediaChannels}) => ( // loop through 'socialMediaChannels' and return selected 'SocialShareButtons'. <button> 'key' attribute is important!
+					
+					<Fragment>
+						{socialMediaChannels.map(socialMediaChannel => (
+							
+							<Fragment>
+							{ attributes[socialMediaChannel.name.toLowerCase()] &&
+							<button 
+								className={ classes + ' algori-social-share-buttons-'+socialMediaChannel.name.toLowerCase() }  
+								key={ socialMediaChannel.name.toLowerCase() }
+								onClick={ ( socialMediaChannel.name === 'Print') ? socialMediaChannel.link : "window.open('" + socialMediaChannel.link.replace('urlToShare', currentPagePermalink) + "', '_blank')" }>
+									{ showButtonIcon && <i className={ socialMediaChannel.icon }></i> }
+									{ showButtonText && __( '\u00A0 \u00A0' + socialMediaChannel.name ) }
+							</button> 
+							}
+							</Fragment>
+							
+						))}
+					</Fragment>	
+					
+				); 
+				
+				return (
+					<div style={{ 'text-align': contentAlign }} >
+							
+						<SocialShareButtons socialMediaChannels={socialMediaChannels} />
+						
+					</div>
+				);
+				
+			},
+		}
+	],
 	
 } );
