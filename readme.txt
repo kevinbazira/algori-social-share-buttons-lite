@@ -92,7 +92,7 @@ See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/
 
 == Changelog ==
 
-= 1.0.3 - May 17 2019 =
+= 1.0.4 - June 24 2019 =
 * Removed Google+ Share button since [Google closed consumer g+ in April 2019](https://blog.google/technology/safety-security/expediting-changes-google-plus/)
 * Added Messenger Share button to replace g+
 
