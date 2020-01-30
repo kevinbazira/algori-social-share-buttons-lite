@@ -5,8 +5,8 @@ Contributors: [Kevin Bazira](http://kevinbazira.com)
 Tags: gutenberg, block, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
 
 Requires at least: WP 5.0.0
-* Tested up to: WP 5.2
-* Stable tag: 1.0.4
+* Tested up to: WP 5.3
+* Stable tag: 1.0.5
 * License: GNU General Public License v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -93,6 +93,9 @@ See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/
 
 # Changelog 
 
+= 1.0.5 - Jan 30 2020 =
+* Upgraded cgb-scripts from 1.13.0 to 1.22.0
+
 = 1.0.4 - June 24 2019 =
 * Removed Google+ Share button since [Google closed consumer g+ in April 2019](https://blog.google/technology/safety-security/expediting-changes-google-plus/)
 * Added Messenger Share button to replace g+
@@ -114,7 +117,7 @@ See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/
 * Initial Release
 
 
-Algori Social Share Buttons WordPress Plugin, Copyright 2019 Kevin Bazira.<br/>
+Algori Social Share Buttons WordPress Plugin, Copyright 2020 Kevin Bazira.<br/>
 Algori Social Share Buttons is distributed under the terms of the GNU GPL.<br/><br/>
 
 
