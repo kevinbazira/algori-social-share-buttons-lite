@@ -4,8 +4,8 @@
  * Registering Algori Social Share Buttons Lite block with Gutenberg.
  * Algori Social Share Buttons Lite enables you add Social Media Share Buttons to your Gutenberg ready WordPress site.
  */
-
  
+
 /**
  * External dependencies
  */
@@ -247,6 +247,7 @@ const blockAttributes = {
 };
 
 
+
 /**
  * Register: aa Gutenberg Block.
  *
@@ -287,6 +288,9 @@ registerBlockType( 'cgb/block-algori-social-share-buttons', {
 	 * The "edit" property must be a valid function.
 	 *
 	 * @link https://wordpress.org/gutenberg/handbook/block-api/block-edit-save/
+	 *
+	 * @param {Object} props Props.
+	 * @returns {Mixed} JSX Component.
 	 */
 	edit: ( { attributes, setAttributes, isSelected, className, noticeOperations, noticeUI } ) => {
 		
@@ -442,8 +446,10 @@ registerBlockType( 'cgb/block-algori-social-share-buttons', {
 	 * The "save" property must be specified and must be a valid function.
 	 *
 	 * @link https://wordpress.org/gutenberg/handbook/block-api/block-edit-save/
+	 *
+	 * @param {Object} props Props.
+	 * @returns {Mixed} JSX Frontend HTML.
 	 */
-	 
 	save: ( { attributes, className } ) => {
 		
 		const { url, title, align, width, height, contentAlign, id, currentPagePermalink, selectedSocialMediaChannels, selectedButtonType, selectedButtonSize, selectedButtonTextOrIcon, showButtonIcon, showButtonText, socialMediaChannels } = attributes;
