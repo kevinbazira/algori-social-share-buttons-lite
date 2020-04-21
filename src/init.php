@@ -43,6 +43,15 @@ function algori_social_share_buttons_cgb_block_assets() { // phpcs:ignore
 		null // filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.style.build.css' ) // Version: File modification time.
 	);
 
+	// Register mobile share links script for both frontend + backend.
+	wp_register_script(
+		'algori_social_share_buttons_mobile_device_links-cgb-block-js', // Handle.
+		plugins_url( '/dist/algori-social-share_buttons-mobile-device-links.js', dirname( __FILE__ ) ), // Block.build.js: We register the block here. Built with Webpack.
+		array( 'wp-editor' ), // Dependencies, defined above.
+		null, // filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.build.js' ), // Version: filemtime — Gets file modification time.
+		true // Enqueue the script in the footer.
+	);
+
 	// Register block editor script for backend.
 	wp_register_script(
 		'algori_social_share_buttons-cgb-block-js', // Handle.
@@ -85,6 +94,8 @@ function algori_social_share_buttons_cgb_block_assets() { // phpcs:ignore
 		'cgb/block-algori-social-share-buttons', array(
 			// Enqueue blocks.style.build.css on both frontend & backend.
 			'style'         => 'algori_social_share_buttons-cgb-style-css',
+			// Enqueue JS scripts on both frontend & backend.
+			'script'         => 'algori_social_share_buttons_mobile_device_links-cgb-block-js',
 			// Enqueue blocks.build.js in the editor only.
 			'editor_script' => 'algori_social_share_buttons-cgb-block-js',
 			// Enqueue blocks.editor.build.css in the editor only.

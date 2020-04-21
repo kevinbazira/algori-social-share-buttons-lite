@@ -1,0 +1,1 @@
+jQuery(document).ready(function(b){/Mobi/i.test(window.navigator.userAgent)&&document.querySelectorAll(".algori-social-share-buttons-whatsapp").forEach(function(a){a.onclick=function(a){a.preventDefault();window.open("https://wa.me/?text="+window.location.href,"_blank")}})});
