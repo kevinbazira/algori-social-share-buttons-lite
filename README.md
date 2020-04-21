@@ -5,8 +5,8 @@ Contributors: [Kevin Bazira](http://kevinbazira.com)
 Tags: gutenberg, block, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
 
 Requires at least: WP 5.0.0
-* Tested up to: WP 5.3
-* Stable tag: 1.0.5
+* Tested up to: WP 5.4
+* Stable tag: 1.0.6
 * License: GNU General Public License v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -26,7 +26,8 @@ The free Algori Social Share Buttons plugin includes the following features:
 
 1. Select from **15** Popular Social Media Channels ( websites and mobile messenger apps ) that your content can be shared to.
 2. Select from **5** Beautiful Share Button Design Types that will entice your website visitors to click and share your content.
-3. GDPR Compliant. This plugin does not collect any user data when your visitors click on the Social Share Buttons.
+3. Supports sharing on both Android and iOS mobile native apps. For-example: The WhatsApp share button opens WhatsApp web if the user is on the desktop and opens the WhatsApp mobile app when user is on a mobile device.
+4. GDPR Compliant. This plugin does not collect any user data when your visitors click on the Social Share Buttons.
 
 # New Premium Plugin
 
@@ -92,6 +93,11 @@ Most WordPress themes that are optimized for Gutenberg will work well with Algor
 See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
 
 # Changelog 
+
+= 1.0.6 - April 21 2020 =
+* Updated SMS share button to support both Android and iOS
+* Added support for mobile WhatsApp. Now the WhatsApp share button opens WhatsApp web if the user is on the desktop and opens the WhatsApp mobile app when user is on a mobile device.
+* Tested up to WordPress 5.4
 
 = 1.0.5 - Jan 30 2020 =
 * Upgraded cgb-scripts from 1.13.0 to 1.22.0
