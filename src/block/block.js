@@ -36,10 +36,8 @@ const {
 	BlockControls,
 	InspectorControls,
 	BlockAlignmentToolbar,
-	MediaPlaceholder,
 	MediaUpload,
 	AlignmentToolbar,
-	RichText, 
 } = wp.editor; // Import * from @wordpress/editor 
 
 
