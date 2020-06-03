@@ -38,7 +38,7 @@ const {
 	BlockAlignmentToolbar,
 	MediaUpload,
 	AlignmentToolbar,
-} = wp.editor; // Import * from @wordpress/editor 
+} = wp.blockEditor; // Import * from @wordpress/blockEditor 
 
 
 /**
