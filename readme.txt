@@ -1,11 +1,11 @@
 === Algori Social Share Buttons ===
 Contributors: kevinbazira
 Donate link: http://kevinbazira.com
-Tags: gutenberg, block, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
+Tags: gutenberg, block, block editor, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, social sharing
 Requires at least: 5.0.0
 Tested up to: 5.4
 Requires PHP: 5.6.0
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -92,6 +92,10 @@ Most WordPress themes that are optimized for Gutenberg will work well with Algor
 See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
 
 == Changelog ==
+
+= 1.0.7 - June 11 2020 =
+* Removed MediaPlaceholder and RichText
+* Updated deprecated wp.editor controls to wp.blockEditor controls
 
 = 1.0.6 - April 21 2020 =
 * Updated SMS share button to support both Android and iOS
