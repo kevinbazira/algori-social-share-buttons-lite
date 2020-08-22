@@ -5,8 +5,8 @@ Contributors: [Kevin Bazira](http://kevinbazira.com)
 Tags: gutenberg, block, block editor, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, social sharing
 
 Requires at least: WP 5.0.0
-* Tested up to: WP 5.4
-* Stable tag: 1.0.7
+* Tested up to: WP 5.5
+* Stable tag: 1.0.8
 * License: GNU General Public License v2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -49,6 +49,7 @@ Have a look at the [Premium Plugin](https://codecanyon.net/item/algori-social-sh
 * Click on the 'Activate' button to use your new plugin right away.
 * Go [here for a guide on how to add and customize Social Share Buttons to your WordPress site](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg#documentation).
 * Done :)
+* PS: Remember to click the **Enable auto-updates** link for this plugin so that you don't miss cool new features as they come in.
 
 
 # How to use 
@@ -93,6 +94,12 @@ Most WordPress themes that are optimized for Gutenberg will work well with Algor
 See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
 
 # Changelog 
+
+= 1.0.8 - Aug 22 2020 =
+* Added block preview using example metadata
+* Updated Algori Social Share Buttons namespace
+* Replaced block category 'common' with 'widgets'
+* Added block.json for WP block directory
 
 = 1.0.7 - June 11 2020 =
 * Removed MediaPlaceholder and RichText
