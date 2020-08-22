@@ -1,0 +1,13 @@
+{
+	"name": "algori-social-share-buttons/block-algori-social-share-buttons",
+	"title": "Algori Social Share Buttons",
+	"category": "widgets",
+	"description": "Add add Social Media Share Buttons to your Gutenberg ready WordPress website with ease",
+	"supports": {
+		"align": true
+	},
+	"textdomain": "social-share-buttons-lite",
+	"script": "file:./dist/blocks.build.js",
+	"editorStyle": "file:./dist/blocks.editor.build.css",
+	"style": "file:./dist/blocks.style.build.css"
+}
