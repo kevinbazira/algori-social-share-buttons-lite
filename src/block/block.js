@@ -245,6 +245,13 @@ const blockAttributes = {
 };
 
 
+/**
+ * Cater for block categories in older versions of WordPress i.e < WP 5.5
+ */
+const hasFormattingCategory = wp.blocks.getCategories().some( function( category ) {
+	return category.slug === 'common';
+} );
+
 
 /**
  * Register: aa Gutenberg Block.
@@ -268,13 +275,22 @@ registerBlockType( 'algori-social-share-buttons/block-algori-social-share-button
 	
 	icon: 'share', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
 	
-	category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
+	category: hasFormattingCategory ? 'common' : 'widgets', // Block category — Group blocks together based on common traits E.g. text, media, design, widgets, embeds, reusable.
 	
 	keywords: [ // Block search keywords
 		__( 'Algori Social Media Share Buttons' ), 
 		__( 'facebook twitter messenger linkedin pinterest reddit email gmail yahoo print blogger flipboard whatsapp telegram wechatr threema line sms skype' ), 
 		__( 'pocket tumblr digg buffer hackernews qzone vk weibo odnoklassniki douban xing renren meneame mailru delicious tumbleupon urfingbird livejournal' ), 
 	],
+	
+	example: {
+		attributes: {
+			facebook: true, twitter: true, linkedin: true, pinterest: true, reddit: true, gmail: true, yahoo: true, whatsapp:true, telegram: true,
+			selectedSocialMediaChannels: [
+				"facebook", "twitter", "linkedin", "pinterest", "reddit", "gmail", "yahoo", "whatsapp", "telegram"
+			]	
+		},
+	},
 	
 	attributes: blockAttributes,  // Block attributes for editing in the block inspector.
 	
@@ -325,7 +341,6 @@ registerBlockType( 'algori-social-share-buttons/block-algori-social-share-button
 			}
 			
 		};
-		
 		
 		const classes = classnames(
 			selectedButtonType, 
@@ -417,7 +432,7 @@ registerBlockType( 'algori-social-share-buttons/block-algori-social-share-button
 					{ controls }
 					<Placeholder
 						icon="share"
-						label="Use the Block Inspector section to Select the Share Buttons you want to add here."
+						label="Please use the Block Inspector section to Select the Share Buttons you want to add here."
 					/>
 				</Fragment>
 			);
