@@ -5,7 +5,7 @@
  * Description: <strong>Algori Social Share Buttons</strong> is a Gutenberg Block Plugin that enables you add Social Media Share Buttons to your website. Adding popular social share buttons enables your site visitors to easily send and share your site content with their friends. <strong>This will boost user engagement and grow your site audience</strong>.
  * Author: Kevin Bazira
  * Author URI: http://kevinbazira.com/
- * Version: 1.0.7
+ * Version: 1.0.8
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
