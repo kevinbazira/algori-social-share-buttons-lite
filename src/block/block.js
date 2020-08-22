@@ -259,7 +259,7 @@ const blockAttributes = {
  * @return {?WPBlock}          The block, if it has been successfully
  *                             registered; otherwise `undefined`.
  */
-registerBlockType( 'cgb/block-algori-social-share-buttons', {
+registerBlockType( 'algori-social-share-buttons/block-algori-social-share-buttons', {
 	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
 	
 	title: __( 'Social Share Buttons' ), // Block title.

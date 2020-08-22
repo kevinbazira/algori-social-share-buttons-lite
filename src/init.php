@@ -91,7 +91,7 @@ function algori_social_share_buttons_cgb_block_assets() { // phpcs:ignore
 	 * @since 1.16.0
 	 */
 	register_block_type(
-		'cgb/block-algori-social-share-buttons', array(
+		'algori-social-share-buttons/block-algori-social-share-buttons', array(
 			// Enqueue blocks.style.build.css on both frontend & backend.
 			'style'         => 'algori_social_share_buttons-cgb-style-css',
 			// Enqueue JS scripts on both frontend & backend.
