@@ -3,9 +3,9 @@ Contributors: kevinbazira
 Donate link: http://kevinbazira.com
 Tags: gutenberg, block, block editor, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, social sharing
 Requires at least: 5.0.0
-Tested up to: 5.5
+Tested up to: 5.8.1
 Requires PHP: 5.6.0
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.en.html
 
@@ -93,6 +93,11 @@ Most WordPress themes that are optimized for Gutenberg will work well with Algor
 See more details here [Premium Plugin features](http://www.kevinbazira.com/blog/article/algori-social-share-buttons-pro-for-wordpress-gutenberg)
 
 == Changelog ==
+
+= 1.0.9 - Nov 05 2021 =
+* Added temporary fix for Gutenberg bug on multiple SelectControl height and down-arrow in InspectorControls. Details on this bug: https://github.com/WordPress/gutenberg/issues/27166
+* Bumped up version number
+* Updated docs with v1.0.9 changes
 
 = 1.0.8 - Aug 22 2020 =
 * Added block preview using example metadata
