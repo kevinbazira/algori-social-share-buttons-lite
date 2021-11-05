@@ -9,3 +9,14 @@
 .wp-block-algori-social-share-buttons-block-algori-social-share-buttons  {
   width: 100%;
 }
+
+/*Fix height on multiple SelectControl - temp fix for Gutenberg bug: https://github.com/WordPress/gutenberg/issues/27166
+ Also, used !important because https://github.com/WordPress/gutenberg/issues/20127 and attribute selectors have very low specificity*/
+.algori-social-share-buttons-multiple-selectcontrol > div > select[id^="inspector-select-control-"] {
+  height: auto !important;
+}
+
+/*Hide DownArrow on multiple SelectControl - temp fix for Gutenberg bug: https://github.com/WordPress/gutenberg/issues/27166 */
+.algori-social-share-buttons-multiple-selectcontrol > div > span.components-input-control__suffix {
+  display: none;
+}
