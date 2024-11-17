@@ -3,7 +3,7 @@ Contributors: kevinbazira
 Donate link: http://kevinbazira.com
 Tags: gutenberg, block, block editor, social media, share, buttons, share icons, share buttons, sharing icons, sharing buttons, social share, social sharing
 Requires at least: 5.0.0
-Tested up to: 6.4.1
+Tested up to: 6.7.1
 Requires PHP: 5.6.0
 Stable tag: 1.0.9
 License: GNU General Public License v2 or later
